@@ -1,0 +1,18 @@
+REST API - JSON.
+
+Get /users - HTML Document Render.
+GET /api/users - List all users JSON.   // to create the hybrid server.
+
+
+
+GET /api/users/1 - get the user with ID 1.
+GET /api/users/2 - get the user with ID 2.
+
+Dynamic Path Parameters. ( GET /api/users/:ID)
+:ID = Variable | Dynamic.
+
+POST /api/users - Create nerw user.
+
+PATCH /api/users/1 - Edit the user with ID 1.
+
+DELETE /api/users/1 - Delete the user with ID 1.
